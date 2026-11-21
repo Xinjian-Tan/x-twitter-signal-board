@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="面向基金投资分析师视角的 X（Twitter）信息聚合看板 Demo：8 个账号、主题聚合、情绪变化、按日分析师日报、Markdown 导出与打印。" />
+  <title>X Signal Board · TMT Research Terminal</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1020'/%3E%3Ctext x='32' y='44' font-size='34' font-family='Arial, sans-serif' font-weight='700' text-anchor='middle' fill='%2358d3ff'%3E8%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主内容</a>
+
+  <header class="hero">
+    <div>
+      <p class="eyebrow">FUND ANALYST DEMO · TMT RESEARCH TERMINAL</p>
+      <h1>X Signal Board</h1>
+    </div>
+    <div class="hero-meta">
+      <span>最后更新：<b id="updatedAt">—</b></span>
+      <span class="pill" id="sourceBadge">数据源加载中</span>
+      <button id="settingsBtn" class="ghost settings-btn" type="button">API 设置</button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="视图切换">
+    <button class="tab active" id="tab-feed" data-view="feed" role="tab" aria-selected="true" aria-controls="feedView">信息流</button>
+    <button class="tab" id="tab-topics" data-view="topics" role="tab" aria-selected="false" aria-controls="topicsView">主题聚合</button>
+    <button class="tab" id="tab-daily" data-view="daily" role="tab" aria-selected="false" aria-controls="dailyView">分析师日报</button>
+  </nav>
+
+  <section class="stats" id="stats" aria-label="关键统计"></section>
+
+  <section class="filters" aria-label="筛选与搜索">
+    <label>账号<select id="accountFilter"></select></label>
+    <label>主题<select id="topicFilter"></select></label>
+    <label>情绪<select id="sentimentFilter"></select></label>
+    <label>重要性<select id="importanceFilter"></select></label>
+    <label>日期<select id="dateFilter"></select></label>
+    <label class="search">搜索<input id="searchInput" type="search" placeholder="标的 / 关键词 / 账号" autocomplete="off" /></label>
+    <button id="trackedBtn" class="ghost tracked-toggle" type="button" aria-pressed="false">仅看跟踪 <b id="trackedCount">0</b></button>
+    <button id="resetBtn" class="ghost" type="button">重置</button>
+  </section>
+
+  <main id="main">
+    <section id="feedView" class="view" role="tabpanel" aria-labelledby="tab-feed"></section>
+    <section id="topicsView" class="view hidden" role="tabpanel" aria-labelledby="tab-topics"></section>
+    <section id="dailyView" class="view hidden" role="tabpanel" aria-labelledby="tab-daily"></section>
+  </main>
+
+  <footer>
+    <p>免责声明：本页面为投研信息聚合 Demo，数据来源见顶部标识，不构成任何投资建议。生产环境请接入合规数据源并遵守平台使用规范。</p>
+    <p class="muted">日报由前端按日期自动聚合；样本 / 模拟 / API 数据的来源会在顶部标注。X 内容版权归原作者所有。</p>
+  </footer>
+
+  <div id="settingsModal" class="modal hidden" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="settingsTitle">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div>
+          <p class="eyebrow">LOCAL SYNC · X API</p>
+          <h2 id="settingsTitle">数据源与 API</h2>
+        </div>
+        <button id="closeSettings" class="modal-close" type="button" aria-label="关闭设置">×</button>
+      </div>
+
+      <p id="apiServerStatus" class="api-status">正在检测本地服务…</p>
+
+      <label class="field-label" for="tokenInput">X API Bearer Token</label>
+      <input id="tokenInput" class="token-input" type="password" placeholder="粘贴 token；已配置时可留空直接同步" autocomplete="off" spellcheck="false" />
+      <p class="muted small">token 只发送到本机 <code>127.0.0.1</code> 服务，不写入浏览器、localStorage 或代码；已配置后输入框可留空，直接同步。</p>
+
+      <div class="modal-actions">
+        <button id="testTokenBtn" class="ghost" type="button">测试连接</button>
+        <button id="saveSyncBtn" class="ghost primary" type="button">保存并同步</button>
+        <button id="clearTokenBtn" class="ghost" type="button">清除 token</button>
+      </div>
+
+      <pre id="apiResult" class="api-result" hidden></pre>
+
+      <details class="local-help">
+        <summary>页面显示“未连接本地服务”？</summary>
+        <p>GitHub Pages 是静态托管，不能直连 X API。请在项目目录启动本地服务：</p>
+        <pre>python3 server/app.py --open</pre>
+        <p>然后打开 <code>http://127.0.0.1:8787</code>，再输入 token。token 只存在本机服务内存，重启即失效。</p>
+        <p>GitHub Actions 的每日自动更新仍然走 Secrets，不需要在页面输入 token。</p>
+      </details>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

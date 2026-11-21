@@ -1,0 +1,696 @@
+{
+  "posts": [
+    {
+      "id": "p1",
+      "account": "SemiAnalysis_",
+      "date": "2026-11-17",
+      "time": "09:10",
+      "topic": "半导体/供应链",
+      "sentiment": "看多",
+      "importance": "高",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "AVGO"
+      ],
+      "summary": "云厂 2027 年 capex 初步指引仍偏强，CoWoS 与先进封装订单能见度提升。",
+      "viewpoint": "AI 算力链仍是半导体最强主线，供给瓶颈环节优先受益。",
+      "note": "关注台积电月度营收与 CoWoS 扩产节奏。",
+      "change": "较上周：capex 预期上修",
+      "url": "https://x.com/SemiAnalysis_"
+    },
+    {
+      "id": "p2",
+      "account": "Omercheema",
+      "date": "2026-11-17",
+      "time": "10:05",
+      "topic": "半导体/供应链",
+      "sentiment": "中性",
+      "importance": "中",
+      "tickers": [
+        "ASML",
+        "AMAT"
+      ],
+      "summary": "设备订单能见度平稳，先进制程扩产没有明显加速，短期缺少上修催化。",
+      "viewpoint": "半导体设备等待更明确的订单信号。",
+      "note": "跟踪 ASML 订单指引与晶圆厂资本开支。",
+      "url": "https://x.com/Omercheema"
+    },
+    {
+      "id": "p3",
+      "account": "FredaDuan",
+      "date": "2026-11-17",
+      "time": "11:20",
+      "topic": "TMT/互联网",
+      "sentiment": "看多",
+      "importance": "高",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "summary": "企业 AI 工作负载开始进入放量阶段，云收入增速有望在 2027 年回升。",
+      "viewpoint": "超大规模云厂仍是 TMT 最确定的方向。",
+      "note": "与半导体 capex 观点互相印证。",
+      "url": "https://x.com/FredaDuan"
+    },
+    {
+      "id": "p4",
+      "account": "TMTLongShort",
+      "date": "2026-11-17",
+      "time": "13:15",
+      "topic": "TMT/互联网",
+      "sentiment": "中性",
+      "importance": "中",
+      "tickers": [
+        "BABA",
+        "PDD",
+        "JD"
+      ],
+      "summary": "电商补贴力度加大，短期利润率承压，估值修复需要竞争格局先缓和。",
+      "viewpoint": "中概电商暂不具备趋势性机会，等待竞争格局信号。",
+      "note": "关注双十二补贴与 GMV 数据。",
+      "url": "https://x.com/TMTLongShort"
+    },
+    {
+      "id": "p5",
+      "account": "RYANHINGSHING",
+      "date": "2026-11-17",
+      "time": "14:30",
+      "topic": "TMT/互联网",
+      "sentiment": "看多",
+      "importance": "中",
+      "tickers": [
+        "META",
+        "AMZN"
+      ],
+      "summary": "广告需求边际改善，AI 推荐提升转化率，四季度广告收入仍有上修空间。",
+      "viewpoint": "广告链是 TMT 里现金流最稳的方向之一。",
+      "note": "跟踪广告加载率与 Reels 变现。",
+      "url": "https://x.com/RYANHINGSHING"
+    },
+    {
+      "id": "p6",
+      "account": "OrnnExchange",
+      "date": "2026-11-17",
+      "time": "15:10",
+      "topic": "市场/宏观",
+      "sentiment": "看空",
+      "importance": "中",
+      "tickers": [
+        "US10Y",
+        "DXY"
+      ],
+      "summary": "长端利率与美元同步走强，风险资产估值承压，流动性边际收紧。",
+      "viewpoint": "降低高 beta 暴露，等待利率回落。",
+      "note": "关注下周 CPI 与美债拍卖。",
+      "url": "https://x.com/OrnnExchange"
+    },
+    {
+      "id": "p7",
+      "account": "HedgeyeTech",
+      "date": "2026-11-17",
+      "time": "16:00",
+      "topic": "市场/宏观",
+      "sentiment": "中性",
+      "importance": "低",
+      "tickers": [
+        "SPX",
+        "QQQ"
+      ],
+      "summary": "市场宽度改善但成交量未确认，趋势信号混合。",
+      "viewpoint": "等待确认，不追高。",
+      "note": "关注波动率结构。",
+      "url": "https://x.com/HedgeyeTech"
+    },
+    {
+      "id": "p8",
+      "account": "aleabitoreddit",
+      "date": "2026-11-17",
+      "time": "17:05",
+      "topic": "个股/事件驱动",
+      "sentiment": "看多",
+      "importance": "中",
+      "tickers": [
+        "AMD",
+        "NVDA"
+      ],
+      "summary": "AI 服务器与加速卡订单边际改善，短期事件催化较多。",
+      "viewpoint": "事件驱动偏多，但需要控制仓位。",
+      "note": "关注行业展会与新品发布。",
+      "url": "https://x.com/aleabitoreddit"
+    },
+    {
+      "id": "p9",
+      "account": "SemiAnalysis_",
+      "date": "2026-11-18",
+      "time": "09:05",
+      "topic": "半导体/供应链",
+      "sentiment": "看多",
+      "importance": "高",
+      "tickers": [
+        "MU",
+        "000660.KS"
+      ],
+      "summary": "HBM 供需紧张延续，存储价格谈判有利于供应商，盈利弹性可能被低估。",
+      "viewpoint": "存储链是当前半导体里预期差最大的方向。",
+      "note": "跟踪 HBM3E/HBM4 认证与扩产进度。",
+      "change": "较上一日：存储观点由中性转多",
+      "watch": true,
+      "url": "https://x.com/SemiAnalysis_"
+    },
+    {
+      "id": "p10",
+      "account": "Omercheema",
+      "date": "2026-11-18",
+      "time": "10:10",
+      "topic": "半导体/供应链",
+      "sentiment": "看多",
+      "importance": "中",
+      "tickers": [
+        "TSM",
+        "ASML"
+      ],
+      "summary": "先进制程利用率维持高位，设备订单能见度改善。",
+      "viewpoint": "代工与设备短期偏多，但估值已经不便宜。",
+      "note": "关注台积电产能利用率与设备交付。",
+      "url": "https://x.com/Omercheema"
+    },
+    {
+      "id": "p11",
+      "account": "FredaDuan",
+      "date": "2026-11-18",
+      "time": "11:30",
+      "topic": "TMT/互联网",
+      "sentiment": "中性",
+      "importance": "中",
+      "tickers": [
+        "BABA",
+        "PDD"
+      ],
+      "summary": "中概互联网估值处于低位，但盈利预期仍在下修，反转需要催化剂。",
+      "viewpoint": "等待政策与竞争格局的明确信号。",
+      "note": "与 TMTLongShort 的观点存在分歧。",
+      "url": "https://x.com/FredaDuan"
+    },
+    {
+      "id": "p12",
+      "account": "TMTLongShort",
+      "date": "2026-11-18",
+      "time": "13:00",
+      "topic": "TMT/互联网",
+      "sentiment": "看空",
+      "importance": "中",
+      "tickers": [
+        "BABA",
+        "JD"
+      ],
+      "summary": "电商价格战与补贴力度超预期，短期利润率承压，市场对盈利修复过于乐观。",
+      "viewpoint": "中概电商需要等待竞争格局缓和。",
+      "note": "关注补贴强度与 GMV 数据。",
+      "url": "https://x.com/TMTLongShort"
+    },
+    {
+      "id": "p13",
+      "account": "RYANHINGSHING",
+      "date": "2026-11-18",
+      "time": "14:20",
+      "topic": "TMT/互联网",
+      "sentiment": "看多",
+      "importance": "中",
+      "tickers": [
+        "GOOGL",
+        "META"
+      ],
+      "summary": "AI 广告工具进入商业化测试，龙头平台的变现效率有望提升。",
+      "viewpoint": "广告与搜索变现改善，龙头优先受益。",
+      "note": "关注产品发布节奏与广告价格。",
+      "url": "https://x.com/RYANHINGSHING"
+    },
+    {
+      "id": "p14",
+      "account": "OrnnExchange",
+      "date": "2026-11-18",
+      "time": "15:00",
+      "topic": "市场/宏观",
+      "sentiment": "中性",
+      "importance": "低",
+      "tickers": [
+        "GLD",
+        "SPX"
+      ],
+      "summary": "实际利率回落对黄金形成支撑，但风险资产估值仍然偏高。",
+      "viewpoint": "均衡配置，不做方向性押注。",
+      "note": "关注实际利率与美元指数。",
+      "url": "https://x.com/OrnnExchange"
+    },
+    {
+      "id": "p15",
+      "account": "HedgeyeTech",
+      "date": "2026-11-18",
+      "time": "16:10",
+      "topic": "市场/宏观",
+      "sentiment": "看空",
+      "importance": "中",
+      "tickers": [
+        "QQQ",
+        "VIX"
+      ],
+      "summary": "科技股拥挤度与期权 gamma 结构显示短期波动率被低估。",
+      "viewpoint": "对高估值科技指数保持谨慎。",
+      "note": "关注波动率与仓位数据。",
+      "change": "较上一日：波动率看空观点强化",
+      "url": "https://x.com/HedgeyeTech"
+    },
+    {
+      "id": "p16",
+      "account": "aleabitoreddit",
+      "date": "2026-11-18",
+      "time": "17:20",
+      "topic": "个股/事件驱动",
+      "sentiment": "中性",
+      "importance": "低",
+      "tickers": [
+        "TSLA",
+        "SMCI"
+      ],
+      "summary": "交付预期与价格策略博弈，短期缺乏明确方向。",
+      "viewpoint": "观望，等待事件落地。",
+      "note": "关注交付与产能数据。",
+      "url": "https://x.com/aleabitoreddit"
+    },
+    {
+      "id": "p17",
+      "account": "SemiAnalysis_",
+      "date": "2026-11-19",
+      "time": "09:30",
+      "topic": "半导体/供应链",
+      "sentiment": "看多",
+      "importance": "高",
+      "tickers": [
+        "NVDA",
+        "AVGO"
+      ],
+      "summary": "AI 网络与交换芯片需求超预期，定制 ASIC 项目加速。",
+      "viewpoint": "网络侧是 AI 算力链的下一阶段重点。",
+      "note": "与云厂 capex 上修互相呼应。",
+      "url": "https://x.com/SemiAnalysis_"
+    },
+    {
+      "id": "p18",
+      "account": "Omercheema",
+      "date": "2026-11-19",
+      "time": "10:10",
+      "topic": "半导体/供应链",
+      "sentiment": "中性",
+      "importance": "低",
+      "tickers": [
+        "INTC"
+      ],
+      "summary": "代工业务进展缓慢，资本开支压力仍大。",
+      "viewpoint": "短期难有重估，等待客户签约。",
+      "note": "跟踪代工客户与产能爬坡。",
+      "url": "https://x.com/Omercheema"
+    },
+    {
+      "id": "p19",
+      "account": "FredaDuan",
+      "date": "2026-11-19",
+      "time": "11:30",
+      "topic": "TMT/互联网",
+      "sentiment": "看多",
+      "importance": "高",
+      "tickers": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "summary": "AI 应用付费转化开始改善，云厂 AI 收入占比提升。",
+      "viewpoint": "软件与云龙头是 AI 变现的核心受益者。",
+      "note": "关注 ARPU 与续费率。",
+      "url": "https://x.com/FredaDuan"
+    },
+    {
+      "id": "p20",
+      "account": "TMTLongShort",
+      "date": "2026-11-19",
+      "time": "13:00",
+      "topic": "TMT/互联网",
+      "sentiment": "看空",
+      "importance": "中",
+      "tickers": [
+        "PDD",
+        "BABA"
+      ],
+      "summary": "跨境电商监管与竞争压力上升，短期盈利能见度下降。",
+      "viewpoint": "中概电商谨慎，等待政策落地。",
+      "note": "关注政策与竞争格局。",
+      "url": "https://x.com/TMTLongShort"
+    },
+    {
+      "id": "p21",
+      "account": "OrnnExchange",
+      "date": "2026-11-19",
+      "time": "14:20",
+      "topic": "市场/宏观",
+      "sentiment": "中性",
+      "importance": "中",
+      "tickers": [
+        "SPX",
+        "GLD"
+      ],
+      "summary": "实际利率回落对黄金形成支撑，但风险资产估值仍高。",
+      "viewpoint": "均衡配置，等待方向确认。",
+      "note": "关注实际利率与美元。",
+      "url": "https://x.com/OrnnExchange"
+    },
+    {
+      "id": "p22",
+      "account": "HedgeyeTech",
+      "date": "2026-11-19",
+      "time": "15:10",
+      "topic": "市场/宏观",
+      "sentiment": "看空",
+      "importance": "中",
+      "tickers": [
+        "QQQ"
+      ],
+      "summary": "盈利修正广度走弱，科技股上行空间受限。",
+      "viewpoint": "对科技指数保持谨慎。",
+      "note": "跟踪盈利修正与市场宽度。",
+      "url": "https://x.com/HedgeyeTech"
+    },
+    {
+      "id": "p23",
+      "account": "RYANHINGSHING",
+      "date": "2026-11-19",
+      "time": "16:00",
+      "topic": "TMT/互联网",
+      "sentiment": "看多",
+      "importance": "中",
+      "tickers": [
+        "META"
+      ],
+      "summary": "Reels 变现效率提升，广告工具 AI 化推进。",
+      "viewpoint": "广告链偏多，关注广告价格。",
+      "note": "跟踪广告加载率与 Reels 变现。",
+      "url": "https://x.com/RYANHINGSHING"
+    },
+    {
+      "id": "p24",
+      "account": "aleabitoreddit",
+      "date": "2026-11-19",
+      "time": "17:20",
+      "topic": "个股/事件驱动",
+      "sentiment": "看多",
+      "importance": "低",
+      "tickers": [
+        "AMD"
+      ],
+      "summary": "AI PC 与数据中心产品线更新，市场情绪改善。",
+      "viewpoint": "事件驱动偏多，等待销量验证。",
+      "note": "关注发布会与渠道反馈。",
+      "url": "https://x.com/aleabitoreddit"
+    },
+    {
+      "id": "p25",
+      "account": "SemiAnalysis_",
+      "date": "2026-11-20",
+      "time": "09:05",
+      "topic": "半导体/供应链",
+      "sentiment": "中性",
+      "importance": "中",
+      "tickers": [
+        "ASML",
+        "TSM"
+      ],
+      "summary": "先进制程扩产节奏平稳，设备订单能见度尚可但缺乏上修惊喜。",
+      "viewpoint": "半导体设备短期中性，等待订单指引。",
+      "note": "关注 ASML 订单与台积电资本开支。",
+      "url": "https://x.com/SemiAnalysis_"
+    },
+    {
+      "id": "p26",
+      "account": "Omercheema",
+      "date": "2026-11-20",
+      "time": "10:20",
+      "topic": "半导体/供应链",
+      "sentiment": "看多",
+      "importance": "中",
+      "tickers": [
+        "MU",
+        "000660.KS"
+      ],
+      "summary": "HBM 供需紧张持续，存储价格谈判有利于供应商。",
+      "viewpoint": "存储链盈利弹性被低估。",
+      "note": "跟踪 HBM3E 认证与扩产。",
+      "url": "https://x.com/Omercheema"
+    },
+    {
+      "id": "p27",
+      "account": "FredaDuan",
+      "date": "2026-11-20",
+      "time": "11:10",
+      "topic": "TMT/互联网",
+      "sentiment": "中性",
+      "importance": "中",
+      "tickers": [
+        "BABA",
+        "PDD"
+      ],
+      "summary": "中概互联网估值处于低位，但盈利预期仍在下修。",
+      "viewpoint": "等待政策与竞争格局信号。",
+      "note": "与 TMTLongShort 讨论竞争格局。",
+      "url": "https://x.com/FredaDuan"
+    },
+    {
+      "id": "p28",
+      "account": "TMTLongShort",
+      "date": "2026-11-20",
+      "time": "12:40",
+      "topic": "TMT/互联网",
+      "sentiment": "看多",
+      "importance": "低",
+      "tickers": [
+        "GOOGL",
+        "META"
+      ],
+      "summary": "AI 搜索与广告工具进入商业化测试，短期情绪改善。",
+      "viewpoint": "龙头平台受益 AI 变现。",
+      "note": "关注产品发布与广告收入。",
+      "url": "https://x.com/TMTLongShort"
+    },
+    {
+      "id": "p29",
+      "account": "OrnnExchange",
+      "date": "2026-11-20",
+      "time": "14:15",
+      "topic": "市场/宏观",
+      "sentiment": "看空",
+      "importance": "中",
+      "tickers": [
+        "US10Y",
+        "DXY"
+      ],
+      "summary": "美元与长端利率同步走强，对新兴市场风险偏好形成压制。",
+      "viewpoint": "降低高 beta 暴露，等待利率回落。",
+      "note": "关注下周 CPI 与美债拍卖。",
+      "url": "https://x.com/OrnnExchange"
+    },
+    {
+      "id": "p30",
+      "account": "HedgeyeTech",
+      "date": "2026-11-20",
+      "time": "15:00",
+      "topic": "市场/宏观",
+      "sentiment": "中性",
+      "importance": "低",
+      "tickers": [
+        "SPX"
+      ],
+      "summary": "市场宽度改善但成交量未确认，趋势信号混合。",
+      "viewpoint": "等待确认，不追高。",
+      "note": "关注成交量与波动率。",
+      "url": "https://x.com/HedgeyeTech"
+    },
+    {
+      "id": "p31",
+      "account": "RYANHINGSHING",
+      "date": "2026-11-20",
+      "time": "16:20",
+      "topic": "TMT/互联网",
+      "sentiment": "看多",
+      "importance": "中",
+      "tickers": [
+        "AMZN",
+        "MSFT"
+      ],
+      "summary": "云迁移与 AI 工作负载带动企业 IT 支出回暖。",
+      "viewpoint": "云产业链偏多，关注财报兑现。",
+      "note": "跟踪企业 IT 预算与云收入。",
+      "url": "https://x.com/RYANHINGSHING"
+    },
+    {
+      "id": "p32",
+      "account": "aleabitoreddit",
+      "date": "2026-11-20",
+      "time": "17:30",
+      "topic": "个股/事件驱动",
+      "sentiment": "中性",
+      "importance": "低",
+      "tickers": [
+        "TSLA"
+      ],
+      "summary": "交付预期与价格策略博弈，短期缺乏明确方向。",
+      "viewpoint": "观望，等待事件落地。",
+      "note": "关注交付数据与价格策略。",
+      "url": "https://x.com/aleabitoreddit"
+    },
+    {
+      "id": "p33",
+      "account": "SemiAnalysis_",
+      "date": "2026-11-21",
+      "time": "09:10",
+      "topic": "半导体/供应链",
+      "sentiment": "看多",
+      "importance": "高",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "AVGO"
+      ],
+      "summary": "CoWoS 与 HBM 排产显示 AI 加速器需求未见放缓，头部云厂 2027 年资本开支预期继续上修。",
+      "viewpoint": "AI 算力链仍是半导体板块最强主线，回调更可能是加仓窗口。",
+      "note": "与昨日产业链调研一致；关注下周台积电月度数据。",
+      "change": "较昨日：由中性上调至看多",
+      "watch": true,
+      "url": "https://x.com/SemiAnalysis_"
+    },
+    {
+      "id": "p34",
+      "account": "Omercheema",
+      "date": "2026-11-21",
+      "time": "10:05",
+      "topic": "半导体/供应链",
+      "sentiment": "中性",
+      "importance": "中",
+      "tickers": [
+        "AMD",
+        "TSM"
+      ],
+      "summary": "AMD MI 系列客户导入进度符合预期，但软件生态仍是放量瓶颈。",
+      "viewpoint": "短期难撼动 NVDA，更多是估值修复交易。",
+      "note": "跟踪 ROCm 生态与云厂认证。",
+      "url": "https://x.com/Omercheema"
+    },
+    {
+      "id": "p35",
+      "account": "FredaDuan",
+      "date": "2026-11-21",
+      "time": "11:20",
+      "topic": "TMT/互联网",
+      "sentiment": "看多",
+      "importance": "高",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN"
+      ],
+      "summary": "云厂 AI capex 上修开始体现在订单与电力采购，云收入增速有望在 2027 年重新加速。",
+      "viewpoint": "超大规模云厂仍是 TMT 最确定方向。",
+      "note": "与 SemiAnalysis 观点互相印证。",
+      "change": "较昨日：云 capex 预期上修",
+      "watch": true,
+      "url": "https://x.com/FredaDuan"
+    },
+    {
+      "id": "p36",
+      "account": "TMTLongShort",
+      "date": "2026-11-21",
+      "time": "13:15",
+      "topic": "TMT/互联网",
+      "sentiment": "看空",
+      "importance": "中",
+      "tickers": [
+        "BABA",
+        "PDD",
+        "JD"
+      ],
+      "summary": "电商价格战与补贴力度超预期，短期利润率承压，市场对盈利修复过于乐观。",
+      "viewpoint": "中概电商需等待竞争格局缓和。",
+      "note": "关注双十二补贴与 GMV 数据。",
+      "url": "https://x.com/TMTLongShort"
+    },
+    {
+      "id": "p37",
+      "account": "OrnnExchange",
+      "date": "2026-11-21",
+      "time": "14:00",
+      "topic": "市场/宏观",
+      "sentiment": "中性",
+      "importance": "中",
+      "tickers": [
+        "SPX",
+        "US10Y",
+        "DXY"
+      ],
+      "summary": "美债收益率曲线小幅陡峭化，流动性指标边际转弱，但尚未触发风险资产系统性去杠杆。",
+      "viewpoint": "维持中性仓位，关注信用利差。",
+      "note": "宏观信号偏震荡。",
+      "url": "https://x.com/OrnnExchange"
+    },
+    {
+      "id": "p38",
+      "account": "HedgeyeTech",
+      "date": "2026-11-21",
+      "time": "15:30",
+      "topic": "市场/宏观",
+      "sentiment": "看空",
+      "importance": "高",
+      "tickers": [
+        "QQQ",
+        "SPX",
+        "VIX"
+      ],
+      "summary": "科技股拥挤度与期权 gamma 结构显示短期波动率被低估，回调风险上升。",
+      "viewpoint": "对高估值科技指数保持谨慎。",
+      "note": "与云 capex 多头观点形成对冲。",
+      "change": "较昨日：波动率看空观点强化",
+      "watch": true,
+      "url": "https://x.com/HedgeyeTech"
+    },
+    {
+      "id": "p39",
+      "account": "RYANHINGSHING",
+      "date": "2026-11-21",
+      "time": "16:10",
+      "topic": "TMT/互联网",
+      "sentiment": "看多",
+      "importance": "中",
+      "tickers": [
+        "META",
+        "AMZN"
+      ],
+      "summary": "广告需求与 AI 推荐效率提升，四季度广告收入指引有上修空间。",
+      "viewpoint": "关注 AI 对广告变现效率的增量。",
+      "note": "跟踪广告加载率与 Reels 变现。",
+      "url": "https://x.com/RYANHINGSHING"
+    },
+    {
+      "id": "p40",
+      "account": "aleabitoreddit",
+      "date": "2026-11-21",
+      "time": "17:05",
+      "topic": "个股/事件驱动",
+      "sentiment": "看多",
+      "importance": "中",
+      "tickers": [
+        "NVDA",
+        "SMCI"
+      ],
+      "summary": "供应链订单与渠道库存显示 AI 服务器交付加速，短期事件催化较多。",
+      "viewpoint": "个股事件驱动偏多，但需控制仓位。",
+      "note": "关注下周行业展会。",
+      "url": "https://x.com/aleabitoreddit"
+    }
+  ]
+}

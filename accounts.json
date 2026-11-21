@@ -1,0 +1,34 @@
+{
+  "aleabitoreddit": {
+    "name": "Alea",
+    "role": "个股/事件驱动"
+  },
+  "SemiAnalysis_": {
+    "name": "SemiAnalysis",
+    "role": "半导体/供应链"
+  },
+  "Omercheema": {
+    "name": "Omer Cheema",
+    "role": "半导体/供应链"
+  },
+  "OrnnExchange": {
+    "name": "Ornn Exchange",
+    "role": "市场/宏观"
+  },
+  "HedgeyeTech": {
+    "name": "Hedgeye Tech",
+    "role": "市场/宏观"
+  },
+  "RYANHINGSHING": {
+    "name": "Ryan Hingshing",
+    "role": "TMT/互联网"
+  },
+  "FredaDuan": {
+    "name": "Freda Duan",
+    "role": "TMT/互联网"
+  },
+  "TMTLongShort": {
+    "name": "TMT Long/Short",
+    "role": "TMT/互联网"
+  }
+}

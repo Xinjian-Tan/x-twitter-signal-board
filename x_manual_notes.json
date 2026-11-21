@@ -1,0 +1,429 @@
+{
+  "2124006824525299715": {
+    "summary": "SemiAnalysis 称 Anthropic 研究员用 Claude 找到了黎曼猜想的 Lean 证明，若验证通过将是 AI 数学能力的里程碑。",
+    "viewpoint": "AI 推理能力的外溢值得关注，但短期与股票基本面关系有限。",
+    "note": "跟踪证明验证进度与推理算力成本；非直接持仓信号。",
+    "topic": "TMT/互联网",
+    "sentiment": "中性",
+    "importance": "中",
+    "tickers": [],
+    "watch": false
+  },
+  "2124006826001789264": {
+    "summary": "该证明包含约 2.5 亿页的“书”和 1740 万行 Lean 证明，估算仅输出 token 成本就约 4.4 万美元。",
+    "viewpoint": "长上下文与推理成本是 AI 能力落地的隐性约束。",
+    "note": "关注 token 成本与验证算力。",
+    "topic": "TMT/互联网",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2123973467724754956": {
+    "summary": "SemiAnalysis 吐槽美国鼎泰丰的服务与口味，称台湾鼎泰丰更好；与投研无关。",
+    "viewpoint": "",
+    "note": "非投研内容，降权。",
+    "topic": "其他",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2123889173706703353": {
+    "summary": "Ornn 用“Jevons 悖论”描述算力市场：token 价格下降、需求爆发，反而推高 compute 价格。",
+    "viewpoint": "算力需求弹性可能被低估，价格与利用率是关键验证指标。",
+    "note": "跟踪 Ornn Compute Price Index 与 GPU 租金。",
+    "topic": "TMT/互联网",
+    "sentiment": "看多",
+    "importance": "中",
+    "tickers": [],
+    "watch": false
+  },
+  "2123878986686333308": {
+    "summary": "Alea 引用报道称 SEC 正在调查英伟达会计问题，NVDA 单日跌超 12%，数周内市值蒸发逾 46%。",
+    "viewpoint": "若调查属实，AI 主线的估值与叙事都会受压；先看官方回应与审计细节。",
+    "note": "高优先级事件；跟踪 SEC/公司公告与指数联动。",
+    "topic": "个股/事件驱动",
+    "sentiment": "看空",
+    "importance": "高",
+    "tickers": [
+      "NVDA"
+    ],
+    "watch": true
+  },
+  "2123851594811011470": {
+    "summary": "Alea 指出 AI 挤占 PCB/光子产能，汽车、工业、医疗等交期拉长，短缺可能持续到 2028 年；亚马逊等云厂已提前锁定供应。",
+    "viewpoint": "AI 供应链瓶颈从芯片扩散到 PCB/光模块，二线供应商有弹性。",
+    "note": "跟踪 PCB、光模块、连接器与云厂锁产能。",
+    "topic": "半导体/供应链",
+    "sentiment": "看多",
+    "importance": "高",
+    "tickers": [
+      "AMZN",
+      "SPCX"
+    ],
+    "watch": true
+  },
+  "2123841418577973727": {
+    "summary": "Alea 讽刺两党都在限制新建数据中心，CoreWeave 等 AI 算力租赁商面临政策不确定性。",
+    "viewpoint": "政策风险可能压制 AI 基建链估值。",
+    "note": "跟踪数据中心审批与地方政策。",
+    "topic": "个股/事件驱动",
+    "sentiment": "看空",
+    "importance": "中",
+    "tickers": [
+      "CRWV"
+    ],
+    "watch": false
+  },
+  "2123823657747087852": {
+    "summary": "SemiAnalysis 称 Ayar Labs 的 SuperNova ELSFP 在 100+ 激光器上通过制造级测试，线宽与 RIN 指标可用于 DWDM。",
+    "viewpoint": "光互联是 AI 集群扩容的关键瓶颈，量产验证是积极信号。",
+    "note": "跟踪 CPO/光引擎与 1.6T 光模块。",
+    "topic": "半导体/供应链",
+    "sentiment": "看多",
+    "importance": "中",
+    "tickers": [],
+    "watch": false
+  },
+  "2123811370357690494": {
+    "summary": "Ornn 讨论 Anthropic 约 8950 亿美元算力支出如何转化为增长与盈利，并引用 Dario Amodei 在 CNBC 的表态。",
+    "viewpoint": "算力投入的回报周期是 AI 资本开支叙事的核心争议。",
+    "note": "跟踪 Anthropic 收入、算力合同与单位经济。",
+    "topic": "TMT/互联网",
+    "sentiment": "中性",
+    "importance": "中",
+    "tickers": [],
+    "watch": false
+  },
+  "2123805601411277149": {
+    "summary": "Alea 称 AI 之外的成长股也大幅回撤，而消费必需品出现 1999 年以来罕见的高估值，市场定价可能失真。",
+    "viewpoint": "资金从成长转向防御，风格切换值得警惕。",
+    "note": "跟踪成长/防御相对估值与资金流。",
+    "topic": "市场/宏观",
+    "sentiment": "看空",
+    "importance": "中",
+    "tickers": [
+      "HOOD",
+      "NBIS"
+    ],
+    "watch": false
+  },
+  "2123738586260631644": {
+    "summary": "Ryan 批评《经济学人》编辑团队不懂经济/政治，宣布取消订阅；与投研无关。",
+    "viewpoint": "",
+    "note": "非投研内容，降权。",
+    "topic": "其他",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2123732732505444862": {
+    "summary": "Hedgeye Tech 认为 2027 年科技行业不确定性上升，估值便宜还可能更便宜，正在寻找能抵御 AI 下行的防御性标的。",
+    "viewpoint": "科技板块从“估值扩张”转向“盈利下修”，防御优先。",
+    "note": "跟踪 2027 盈利修正与 QQQ 相对强弱。",
+    "topic": "市场/宏观",
+    "sentiment": "看空",
+    "importance": "高",
+    "tickers": [
+      "QQQ"
+    ],
+    "watch": true
+  },
+  "2123625335547998476": {
+    "summary": "Hedgeye Tech 称卖方对 ANT 全是买入评级，但其投资者交流中 58% 偏空/中性、42% 看多。",
+    "viewpoint": "卖方一致预期与买方真实仓位存在分歧。",
+    "note": "跟踪 ANT 的买方反馈与评级变化。",
+    "topic": "个股/事件驱动",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [
+      "ANT"
+    ],
+    "watch": false
+  },
+  "2123602891713708464": {
+    "summary": "SemiAnalysis 称得州选举结果可能带来数据中心许可冻结，是其美国数据中心预测的最大风险。",
+    "viewpoint": "电力/许可瓶颈可能拖慢 2027-28 年 AI 基建节奏。",
+    "note": "跟踪得州政策、数据中心并网与电力设备。",
+    "topic": "市场/宏观",
+    "sentiment": "看空",
+    "importance": "高",
+    "tickers": [],
+    "watch": false
+  },
+  "2123495013938073687": {
+    "summary": "SemiAnalysis 用 PS5 Pro 缺货调侃 GTA 6 挤占 GDDR6 产能：一个 GB300 NVL72 机架的 HBM 容量相当于 2000 多台 PS5 Pro。",
+    "viewpoint": "AI 内存需求对消费电子的挤出效应被低估。",
+    "note": "跟踪 HBM/DRAM 供给与消费电子涨价。",
+    "topic": "半导体/供应链",
+    "sentiment": "中性",
+    "importance": "中",
+    "tickers": [],
+    "watch": false
+  },
+  "2123487859201991037": {
+    "summary": "Omercheema 感叹某公司五年做到 1.x 万亿美元市值；未点名，信息量有限。",
+    "viewpoint": "",
+    "note": "低信息量，待补充上下文。",
+    "topic": "其他",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2123467229903901160": {
+    "summary": "Ryan 质疑为何市场认为 AMD 不能向中国卖芯片，而 NVDA 却可以大量销售。",
+    "viewpoint": "出口管制执行的不对称是 AMD 中国业务的关键变量。",
+    "note": "跟踪许可、MI 系列中国出货与政策变化。",
+    "topic": "半导体/供应链",
+    "sentiment": "中性",
+    "importance": "中",
+    "tickers": [
+      "AMD",
+      "NVDA"
+    ],
+    "watch": false
+  },
+  "2123453608071143835": {
+    "summary": "Ryan 称市场误把 AAOI 的林博士当成骗子，他其实只是管理层能力不足。",
+    "viewpoint": "管理层执行力是光模块小盘股的核心风险。",
+    "note": "跟踪 AAOI 订单、良率与管理层沟通。",
+    "topic": "个股/事件驱动",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [
+      "AAOI"
+    ],
+    "watch": false
+  },
+  "2123451571451167047": {
+    "summary": "Ornn 认为五年折旧可能过于悲观：H100/B200/B300/GB300 的二手价格高于账面价值，GPU 作为抵押品比标准折旧假设更强。",
+    "viewpoint": "GPU 残值假设影响算力租赁与融资模式。",
+    "note": "跟踪二手 GPU 价格与租赁合约。",
+    "topic": "TMT/互联网",
+    "sentiment": "看多",
+    "importance": "中",
+    "tickers": [],
+    "watch": false
+  },
+  "2123408274623975710": {
+    "summary": "Omercheema 发“Anthropic Day”祝福；与投研无关。",
+    "viewpoint": "",
+    "note": "非投研内容，降权。",
+    "topic": "其他",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2123352600783225261": {
+    "summary": "Omercheema 用苏联面包供应故事类比计划经济与市场竞争，强调价格信号与分散决策。",
+    "viewpoint": "宏观叙事，但缺少直接市场信号。",
+    "note": "低优先级；可作为长期框架。",
+    "topic": "市场/宏观",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2123088477868736729": {
+    "summary": "Freda 解读腾讯/中国云厂对 AI capex 的口径：2026-27 见顶、之后资本开支强度下降；若行业 AI capex 正常化到 1 万亿美元以下，半导体可寻址市场将收缩。",
+    "viewpoint": "中国云厂 capex 见顶是半导体需求侧的潜在拐点。",
+    "note": "高优先级；跟踪腾讯 capex 指引与国产算力链。",
+    "topic": "TMT/互联网",
+    "sentiment": "看空",
+    "importance": "高",
+    "tickers": [
+      "0700.HK"
+    ],
+    "watch": true
+  },
+  "2123076524861432038": {
+    "summary": "Omercheema 指出其半导体跟踪池里只有 NVDA 接近 52 周低点，而 AMS、AEHR、WOLF、SIVE、AAOI 等低质量公司仍高出 2-4 倍。",
+    "viewpoint": "半导体内部分化极端，低质量标的的回撤风险更大。",
+    "note": "跟踪二线半导体的估值与订单。",
+    "topic": "半导体/供应链",
+    "sentiment": "看空",
+    "importance": "中",
+    "tickers": [
+      "NVDA",
+      "AAOI",
+      "SIVE"
+    ],
+    "watch": false
+  },
+  "2123076265359851737": {
+    "summary": "Ornn 推出历史远期曲线，可回看 A100 到 GB300 的长期算力合约价格，用于基准与对冲。",
+    "viewpoint": "算力合约开始金融化，价格发现更透明。",
+    "note": "跟踪算力远期曲线与合约价。",
+    "topic": "TMT/互联网",
+    "sentiment": "看多",
+    "importance": "中",
+    "tickers": [],
+    "watch": false
+  },
+  "2122733448343527585": {
+    "summary": "Ryan 谈 WFC 管理层个人生活与股东回报；与投研主线无关。",
+    "viewpoint": "",
+    "note": "非投研内容，降权。",
+    "topic": "其他",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2122421447800824031": {
+    "summary": "Omercheema 引用“短期高估、长期低估”的技术规律，认为 AI 长期仍会改变生活，长期投资者不必因短期噪音改变判断。",
+    "viewpoint": "长期 AI 叙事未变，但短期估值与仓位更重要。",
+    "note": "跟踪 AI 采用率与生产率数据。",
+    "topic": "TMT/互联网",
+    "sentiment": "看多",
+    "importance": "中",
+    "tickers": [],
+    "watch": false
+  },
+  "2122060702286303528": {
+    "summary": "Omercheema 称在英伟达噪音中，Cerebras 财报被忽视：核心收入同比 +70% 至 2.31 亿美元，毛利率 41%，在手订单 261 亿美元。",
+    "viewpoint": "AI 推理芯片的竞争格局值得重新评估。",
+    "note": "跟踪 Cerebras 订单、客户集中度与 IPO 进展。",
+    "topic": "个股/事件驱动",
+    "sentiment": "看多",
+    "importance": "高",
+    "tickers": [],
+    "watch": true
+  },
+  "2121892970550923313": {
+    "summary": "Omercheema 认可黄仁勋的贡献，但认为他并非英伟达持续成功的唯一条件，管理层继任规划是长期风险。",
+    "viewpoint": "关键人风险是 NVDA 长期估值的一部分。",
+    "note": "跟踪 NVDA 管理层梯队与治理。",
+    "topic": "个股/事件驱动",
+    "sentiment": "中性",
+    "importance": "中",
+    "tickers": [
+      "NVDA"
+    ],
+    "watch": false
+  },
+  "2121709067617894747": {
+    "summary": "Ornn 的算力价格指数登上 Fox Business，跟踪 GPU 市场成交价，供建设方、投资者与运营商参考。",
+    "viewpoint": "算力价格透明度提升，有利于判断供需。",
+    "note": "跟踪 Ornn Compute Price Index。",
+    "topic": "TMT/互联网",
+    "sentiment": "中性",
+    "importance": "中",
+    "tickers": [],
+    "watch": false
+  },
+  "2121205036373958771": {
+    "summary": "Omercheema 称 ST Micro 今年第四次涨价，半导体供给紧张仍在延续。",
+    "viewpoint": "成熟制程/功率半导体涨价是周期上行的信号。",
+    "note": "跟踪 STM 价格、交期与工业需求。",
+    "topic": "半导体/供应链",
+    "sentiment": "看多",
+    "importance": "高",
+    "tickers": [
+      "STM"
+    ],
+    "watch": true
+  },
+  "2120235483578171775": {
+    "summary": "Freda 祝贺 Geodesic Intelligence 推出 NovaAtom-Lite，称其在抗体-抗原结构预测基准上优于 IsoDDE 与 AlphaFold 3。",
+    "viewpoint": "AI 制药进展快，但与 TMT 持仓关联较弱。",
+    "note": "跟踪 AI for Science 的模型进展。",
+    "topic": "其他",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2118349742426267743": {
+    "summary": "Ryan 长文讨论 post-training 推理需求：闭源推理需求仍强、开源推理增速更快，CSP 渠道反馈 2-3 年算力仍供不应求；核心风险是云厂 GW 收入能否维持。",
+    "viewpoint": "推理需求是下一波算力主线，供给瓶颈仍未缓解。",
+    "note": "高优先级；跟踪 CSP capex、推理 token 与 GPU 租金。",
+    "topic": "TMT/互联网",
+    "sentiment": "看多",
+    "importance": "高",
+    "tickers": [],
+    "watch": true
+  },
+  "2117895525689155935": {
+    "summary": "TMTLongShort 承认自己预测共和党大胜错误，宣布停更 30 天；与投研主线无关。",
+    "viewpoint": "",
+    "note": "非投研内容，降权。",
+    "topic": "其他",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2117767123455853052": {
+    "summary": "TMTLongShort 在选举前押注共和党大胜，称结果将决定自己是“封神”还是“公开认错”。",
+    "viewpoint": "",
+    "note": "非投研内容，降权。",
+    "topic": "其他",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2117737756650610688": {
+    "summary": "TMTLongShort 认为主流叙事误判了特朗普经济学，选举结果将验证消费情绪、关税与 AI capex 的实际影响。",
+    "viewpoint": "政治叙事噪音大，缺少可交易数据。",
+    "note": "低优先级；关注政策与消费数据。",
+    "topic": "市场/宏观",
+    "sentiment": "中性",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  },
+  "2116727410972590380": {
+    "summary": "Freda 与 50 位机器人前沿人士交流后给出 10 条判断：Astra 是机器人“GPT-3 时刻”，前沿实验室正把机器人变成新垂直领域。",
+    "viewpoint": "物理 AI 从 demo 走向可投资，关注基础模型与硬件收敛。",
+    "note": "高优先级；跟踪 Astra、机器人基础模型与供应链。",
+    "topic": "TMT/互联网",
+    "sentiment": "看多",
+    "importance": "高",
+    "tickers": [],
+    "watch": true
+  },
+  "2116310665459909033": {
+    "summary": "Freda 测算 TSLA robotaxi 周运行率 ARR 约 5000 万美元，已达到 Waymo 总预订量的约 1/10；三个月规模增长 10 倍以上。",
+    "viewpoint": "robotaxi 是 TSLA 估值的重要期权，关键看规模与单位经济。",
+    "note": "跟踪 robotaxi 车队、订单与监管。",
+    "topic": "TMT/互联网",
+    "sentiment": "看多",
+    "importance": "高",
+    "tickers": [
+      "TSLA"
+    ],
+    "watch": true
+  },
+  "2008163573038715108": {
+    "summary": "Hedgeye Tech 回顾 2025 年多空观点：平均收益 16%、命中率 76%、空头占 41%，并列出 NVDA、CRWV、NBIS、BABA、PDD 等标的。",
+    "viewpoint": "卖方/买方观点需要看长期命中率，而不是单条推文。",
+    "note": "跟踪其 2026 年新观点与表现。",
+    "topic": "市场/宏观",
+    "sentiment": "中性",
+    "importance": "中",
+    "tickers": [
+      "NVDA",
+      "CRWV",
+      "NBIS",
+      "BABA",
+      "PDD"
+    ],
+    "watch": false
+  },
+  "1909491586641047713": {
+    "summary": "TMTLongShort 2025 年长文认为特朗普关税真正目的是迫使盟友减少对华贸易，后果包括供应链重构与台海风险。",
+    "viewpoint": "旧文，宏观框架仍有参考价值，但不是当前交易信号。",
+    "note": "低优先级；跟踪关税与台海风险。",
+    "topic": "市场/宏观",
+    "sentiment": "看空",
+    "importance": "低",
+    "tickers": [],
+    "watch": false
+  }
+}
